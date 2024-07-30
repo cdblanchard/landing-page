@@ -1,23 +1,24 @@
-
 /* Base Styles */
 * {
-    font-family: Roboto, "Times New Roman", sans-serif
+  font-family: Roboto, "Times New Roman", sans-serif;
 }
 body {
-    box-sizing: border-box;
-    margin: 0;
-    width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100vw;
 }
-header, #hero-section, .footer {
-    background-color: #1f2937;
-    color: #fff;
+header,
+#hero-section,
+.footer {
+  background-color: #1f2937;
+  color: #fff;
 }
 button {
-    background-color: #3882f6;
-    color:#f9faf8;
-    padding: 8px 24px;
-    border-radius: 5px;
-    border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border-radius: 5px;
+  border: none;
 }
 
 /* Typography */
@@ -94,109 +95,143 @@ button {
   font-style: italic;
 }
 
-
 /* Nav and Hero styles */
 
-#nav, #hero-section {
-    display: flex;
+#nav,
+#hero-section {
+  display: flex;
 }
 #nav {
-    justify-content: space-between;
-    align-items: center;
-    max-width: 75%;
-    margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75%;
+  margin: auto;
 }
 .header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 400;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 400;
 }
 ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    gap: 8px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 8px;
 }
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .hero {
-    max-width: 75%;
-    margin: auto;
-    display: flex;
-    gap: 32px;
-    margin: 6em auto;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 75%;
+  margin: auto;
+  display: flex;
+  gap: 32px;
+  margin: 6em auto;
+  justify-content: space-between;
+  align-items: center;
 }
 .hero-copy {
-    flex: 1;
+  flex: 1;
 }
 .hero-headline {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
-.hero-text, li {
-    font-size: 18px;
-    color: #e5e7eb;
+.hero-text,
+li {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 .hero-img {
-    flex: 1;
+  flex: 1;
 }
 .hero-img img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Content Styles */
 #content {
-    margin: 3em 0;
-    text-align: center;    
+  margin: 3em 0;
+  text-align: center;
 }
 .info-header {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: bolder;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
 }
 .card-container {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    margin: auto;
-    gap: 32px;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  gap: 32px;
 }
 .card {
-    flex: 1;
-    max-width: 150px;
-    height: auto;
+  flex: 1;
+  max-width: 150px;
+  height: auto;
 }
 .card img {
-    width: 100%;
-    height: 150px;
-    border: 2px solid #3882f6;
-    border-radius: 15px;
+  width: 100%;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
 }
 
 /* Testimonial Section */
 #testimonial {
-    background-color: #e5e7eb;
-    padding: 5rem 0;
+  background-color: #e5e7eb;
+  padding: 5rem 0;
 }
 .quote {
-    display: flex;
-    flex-direction: column;
-    max-width: 65%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  margin: auto;
 }
 .quote p {
-    font-size: 36px;
-    color: #1f2937;
-    margin-bottom: 16px;
+  font-size: 36px;
+  color: #1f2937;
+  margin-bottom: 16px;
 }
 .quote span {
-    font-size: 18px;
-    font-weight: 600;
-    align-self: flex-end;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+/* CTA Section */
+#cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
+  background-color: #3882f6;
+  color: #fff;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+  margin: 4rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.cta-container span {
+  font-size: 20px;
+}
+.cta-container button {
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 2rem;
+  text-align: center;
 }
